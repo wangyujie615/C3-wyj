@@ -1,35 +1,37 @@
+import java.util.Scanner;
+
 public class Task4 {
     public static void main(String[] args) {
-        System.out.println(SumA(100,200));
-        System.out.println(SumB(100,200));
-        System.out.println(SumC(100,200));
-    }
-    public static int SumA(int a,int b)
-    {
-        int sum=0;
-        while(a<=b)
+        Scanner in=new Scanner(System.in);
+        System.out.println("请输入数组的长度：");
+        int len= in.nextInt();
+        int[] num=new int[len];
+        for(int i=0;i<len;i++)
         {
-            sum+=a;
-            a++;
+            System.out.println("输入的第"+(i+1)+"个元素：");
+            num[i]= in.nextInt();
         }
-        return sum;
+        order(num);
     }
-    public static int SumB(int a,int b)
+    public static void order(int[] num)
     {
-        int sum=0;
-        for(int i=a;i<=b;i++)
+        for(int i=0;i<num.length;i++)
         {
-            sum+=i;
+            if(num[i]==0)
+            {
+                int temp=num[i];
+                for(int j=i;j<num.length-1;j++)
+                {
+                    num[j]=num[j+1];
+                }
+                num[num.length-1]=temp;
+            }
         }
-        return sum;
+        for(int a:num)
+        {
+            System.out.print(a);
+            System.out.print("\t");
+        }
     }
-    public static int SumC(int a,int b)
-    {
-        int sum=0;
-       do{
-          sum+=a;
-          a++;
-       }while(a<=b);
-        return sum;
-    }
+
 }
