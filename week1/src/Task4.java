@@ -1,4 +1,4 @@
-public class task4 {
+public class Task4 {
     public static void main(String[] args) {
         System.out.println(SumA(100,200));
         System.out.println(SumB(100,200));
