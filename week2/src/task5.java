@@ -30,7 +30,7 @@ class People extends Monkey{
     }
     public void think()
     {
-        System.out.println("别说话，认真思考！");
+        System.out.println("别说话，认真思考!");
     }
 }
 public class task5 {
