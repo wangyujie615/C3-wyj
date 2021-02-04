@@ -52,7 +52,7 @@ class Computer{
                 u[i].turnOn();
             }
         }
-        System.out.println("电脑开机");
+        System.out.println("电脑启动了");
     }
     public void powerOff()
     {
