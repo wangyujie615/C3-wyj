@@ -90,7 +90,7 @@ public class task11 {
         shop.addPet(new Cat("波斯猫",5));
         shop.addPet(new Dog("柯基",5));
         shop.addPet(new Dog("柴犬",4));
-        Link all= shop.search("柯基");
+        Link all= shop.search("波斯猫");
         Object[] obj=all.toArray();
         for(int i=0;i< obj.length;i++)
         {
