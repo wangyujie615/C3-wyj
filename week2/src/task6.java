@@ -126,11 +126,11 @@ class Truck extends Vehicle{
         }
         if(this.playLoad>this.pw)
         {
-            w="\n这是一辆卡车，核载"+this.pw+"Kg，你已经装载了"+this.playLoad+"Kg,你超载了！！！";
+            w="\n这是一辆卡车，核载"+this.pw+"Kg，你已经装载了"+this.playLoad+"kg,你超载了！！！";
         }
         else
         {
-            w="\n这是一辆卡车，核载"+this.pw+"Kg，你已经装载了"+this.playLoad+"Kg";
+            w="\n这是一辆卡车，核载"+this.pw+"Kg，你已经装载了"+this.playLoad+"kg";
         }
 
         return "车轮个数是:" +super.getWheels()+
