@@ -18,8 +18,8 @@ class Link{
                 this.next.addNode(node);
             }
         }
-
-        public boolean searchNode(Object data)//查询是否有该节点
+        //查询是否有该节点
+        public boolean searchNode(Object data)
         {
             if(data.equals(this.data))
             {
