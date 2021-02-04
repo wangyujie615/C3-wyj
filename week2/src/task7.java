@@ -58,7 +58,7 @@ class Duck extends Poultry{
     }
     public  void showSymptom()
     {
-        System.out.println("症状为："+super.getSymptom());
+        System.out.println("症状为:"+super.getSymptom());
     }
 }
 public class task7 {
