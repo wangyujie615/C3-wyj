@@ -23,7 +23,7 @@ public class task4 {
         Scanner in=new Scanner(System.in);
         Game temp=new Game();
         int k;
-        System.out.println("欢迎来到猜字游戏，请输入一个数：");
+        System.out.println("欢迎来到猜字游戏，请输入一个数:");
         do {
             int v=in.nextInt();
             k= temp.guess(v);
