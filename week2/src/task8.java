@@ -32,7 +32,7 @@ class C extends B {
 
     public void showB()
     {
-        System.out.println("B类中的numB:"+super.getNumB());
+        System.out.println("B类中的numB："+super.getNumB());
     }
     public void showC()
     {
