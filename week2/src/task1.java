@@ -15,9 +15,9 @@ public class task1 {
                 n[j][t-i-1]=m[i][j];
             }
         }
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < t; i++)
         {
-            for(int j=0;j<4;j++)
+            for(int j=0;j<t;j++)
             {
                 System.out.print(n[i][j]+" ");
             }
