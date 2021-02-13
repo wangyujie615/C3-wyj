@@ -4,7 +4,7 @@ import java.util.List;
 public class task1 {
     public static void main(String[] args) {
         int nums[]={1,2,3,-1,-2,0};
-        List<List<Integer>> a=threeSum(nums,0);
+        List<List<Integer>> a=threeSum(nums,1);
         for (List<Integer> k:a)
         {
             System.out.println(k);
