@@ -11,11 +11,11 @@ public class task3 {
     }
     public static String startString(String str)
     {
-        char[] c=str.toCharArray();//将字符串转化为字符数组
         Set<Character> s=new TreeSet<>();//有序选用TreeSet
-        for (int i=0;i<c.length;i++)
+        for (int i=0;i<str.length();i++)
         {
-            s.add(c[i]);
+            char alpha=str.charAt(i);
+            s.add(alpha);
         }
         Object[] m=s.toArray();
         char[] t=new char[s.size()];
