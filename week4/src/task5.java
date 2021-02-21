@@ -2,7 +2,7 @@ import java.util.*;
 
 public class task5 {
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
+        Scaner in =new Scanner(System.in);
         System.out.println("输入数组长度：");
         int length=in.nextInt();
         int[] num=new int[length];
