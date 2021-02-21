@@ -2,7 +2,7 @@ import java.util.*;
 
 public class task5 {
     public static void main(String[] args) {
-        Scaner in =new Scanner(System.in);
+        Scanner in =new Scanner(System.in);
         System.out.println("输入数组长度：");
         int length=in.nextInt();
         int[] num=new int[length];
@@ -15,7 +15,7 @@ public class task5 {
     public  static void findNumMax(int[] num)
     {
         Map<Integer,Integer> map=new HashMap<>();
-        int max=0,key=Integer.MIN_VALUE
+        int max=0,key=Integer.MIN_VALUE;
         for(int i=0;i<num.length;i++)
         {
             int s=num[i];
