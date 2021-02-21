@@ -4,9 +4,9 @@ public class task5 {
     public static void main(String[] args) {
         Scanner in =new Scanner(System.in);
         System.out.println("输入数组长度：");
-        int length=in.nextInt();
-        int[] num=new int[length];
-        for(int i=0;i<length;i++)
+        int len=in.nextInt();
+        int[] num=new int[len];
+        for(int i=0;i<len;i++)
         {
             num[i]=in.nextInt();
         }
