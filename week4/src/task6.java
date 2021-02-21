@@ -25,7 +25,7 @@ public class task6 {
                 stack.push(str[i]);
             }
             else{
-                String p = stack.peek();
+                String p = stack.peek();//获取栈顶元素
                 if ((p.equals("(") && str[i].equals(")")) || (p.equals("[") && str[i].equals("]")) || (p.equals("{") && str[i].equals("}"))) {
                     stack.pop();//遇到“）” “】” “}”则出栈
                 } else {
