@@ -1,5 +1,4 @@
 import java.io.*;
-
 public class task9 {
     public static void main(String[] args) throws Exception{
         File inputFile=new File("c:"+File.separator+"csatest"+File.separator+"demo.txt");
