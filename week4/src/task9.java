@@ -2,7 +2,7 @@ import java.io.*;
 
 public class task9 {
     public static void main(String[] args) throws Exception{
-        File inputFile=new File("c:"+File.separator+"csatest"+File.separator+"demo.txt");
+        File inputFile=new File("c:"+File.separator+"Csa"+File.separator+"demo.txt");
         File outFile=new File("c:"+File.separator+"csatest2"+File.separator+"demo2.txt");
         if(!outFile.getParentFile().exists())
         {
