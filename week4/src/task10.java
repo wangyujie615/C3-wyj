@@ -1,6 +1,6 @@
 class MyThread implements Runnable{
     private int count=0;
-    private static final Object obj=new Object();
+    private static final Object obj=new Object();//锁对象
     @Override
     public void run() {
         while (count<=10)
