@@ -1,6 +1,6 @@
 #1
-CREATE TABLE cqupt_student(
-studentid VARCHAR(10),
+CREATE TABLE CQUPT_Student(
+StudentId VARCHAR(10),
 name VARCHAR(20),
 sex VARCHAR(2),
 age INTEGER,
@@ -37,8 +37,8 @@ FROM ChooseBb;
 DROP VIEW VIEW_ChooseBb;
 
 #8
-CREATE UNIQUE INDEX index_bb2 ON choosebb(Bb2);
-CREATE UNIQUE INDEX index_bb4 ON choosebb(Bb4 DESC);
+CREATE UNIQUE INDEX index_bb2 ON ChooseBb(Bb2);
+CREATE UNIQUE INDEX index_bb4 ON ChooseBb(Bb4 DESC);
 
 #9
 DROP INDEX index_bb2;
