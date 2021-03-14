@@ -8,13 +8,13 @@ public class task2 {
     }
     public static int solution(int num)
     {
-        if(num==1||num==2||num==3)
+        int[] memory=new int[num+1];
+        memory[1]=1;
+        memory[2]=2;
+        for(int i=3;i<=num;i++)
         {
-            return num;
+            memory[i]=memory[i-1]+memory[i-2];
         }
-        else
-        {
-            return solution(num-1)+solution(num-2);
-        }
+        return memory[num];
     }
 }
